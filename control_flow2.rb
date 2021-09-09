@@ -1,5 +1,5 @@
 while true
     parrot = gets.chomp
     puts parrot
-    break if parrot == "STOP"
+    break if parrot.upcase == "STOP"
 end
